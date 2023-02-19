@@ -1,0 +1,41 @@
+#headerRow > div {
+  margin-top: 100px;
+  padding: 0px !important;
+}
+
+.headerContainer {
+  //height: 400px;
+  //width: 100%;
+  height: 94vh;
+  image-rendering: pixelated;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2) 770px,
+      rgb(255, 255, 255)
+    ),
+    url(../../assets/top/top.jpg);
+  background-repeat: no-repeats;
+  background-size: cover;
+  background-position: center;
+
+  h1 {
+    color: #ceb1a2;
+    font-weight: 300;
+    font-size: 100px;
+    letter-spacing: 20px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    top: 43%;
+    left: 50%;
+  }
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    //height: 100%;
+    //height: 1020px;
+  }
+}

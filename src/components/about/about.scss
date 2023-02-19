@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+#about {
+  margin: auto;
+
+  .row {  
+    margin: 20px auto;
+
+    #text-container {
+      padding-top: 30px;
+
+      .welcome {
+        font-family: 'Pinyon Script', cursive;
+        font-size: 50px;
+      }
+
+      p {
+        padding-top: 10px;
+        white-space: pre-line;
+        font-size: 20px;
+      }
+    }
+
+    .right-vertical {
+
+
+
+      .quote {
+        margin-top: 30px;
+        font-style: italic;
+        font-weight: 100;
+      }
+
+      .gradient-box {
+        //margin-top: 60px;
+        //margin: auto;
+        display: inline-block;
+        position: relative;
+        background: white;
+
+        #headerImg {
+          width: 100%;
+          float: right;
+          display: block;
+          margin: auto;
+          /* display: inline-block;
+          margin: 100px 0px;
+          border-width: 50px;
+          border-style: solid;
+          //border-width: 0px 0px 0px 30px;s
+          border-image-source: linear-gradient(to left, white, black) 1 100%; */
+        }
+      }
+
+      .gradient-box:before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(40deg, #cdb0a1 -100%, #ffffff 200%);
+        transform: translate3d(25px, 15px, 0) scale(1.01);
+        filter: blur(15px);
+        opacity: 0.9;
+        transition: opacity 0.3s;
+        border-radius: inherit;
+      }
+      .gradient-box::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        border-radius: inherit;
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "Header": {
+    "quote": "«Et hjem skal gjenspeile menneskene som bor der, - og livet de lever»",
+    "welcome": "Velkommen til mitt univers!",
+    "about": "Jeg heter Eva Klokkerud, og er så heldig å få være «daglig gleder» i mitt eget firma, Vivente Design. I tett samarbeid med mine oppdragsgivere utvikler jeg komplette interiørløsninger både innenfor offentlig miljø og i private hjem. \n\n Min visjon er å skape harmoniske, gjennomarbeidede løsninger, der funksjonalitet og estetikk forenes i et unikt og personlig uttrykk. Ingen mennesker er like – og det bør heller ikke hjemmene våre være! \n\n Jeg bistår som en kreativ samarbeidspartner enten du skal bygge, pusse opp eller omdisponere boligen din – og leverer en rekke produkter og tjenester som kan gjøre din bolig til det beste hjemmet for nettopp deg! \n\n Ta gjerne kontakt for en uforpliktende prat om ditt prosjekt!"
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/bilde1.jpg",
+      "smallImage": "img/portfolio/bilde1.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/bilde2.jpg",
+      "smallImage": "img/portfolio/bilde2.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/bilde3.jpg",
+      "smallImage": "img/portfolio/bilde3.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/bilde4.jpg",
+      "smallImage": "img/portfolio/bilde4.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/bilde5.jpg",
+      "smallImage": "img/portfolio/bilde5.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/bilde6.jpg",
+      "smallImage": "img/portfolio/bilde6.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/bilde7.jpg",
+      "smallImage": "img/portfolio/bilde7.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/bilde8.jpg",
+      "smallImage": "img/portfolio/bilde8.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/bilde9.jpg",
+      "smallImage": "img/portfolio/bilde9.jpg"
+    }
+  ],
+
+  "Contact": {
+    "address": "Buskerudveien 29, 3024 Drammen, Norge ",
+    "phone": "+47 97 15 17 30",
+    "email": "eva@vivente.no",
+    "facebook": "https://www.facebook.com/ViventeDesign/",
+    "instagram": "https://www.instagram.com/viventedesign"
+  }
+}
