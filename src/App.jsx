@@ -29,7 +29,6 @@ const App = () => {
       <Header />
       <About data={landingPageData.Header}/>
       <GalleryV2 />
-      <Gallery data={landingPageData.Gallery} />
       <Contact data={landingPageData.Contact} />
     </div>
   );
