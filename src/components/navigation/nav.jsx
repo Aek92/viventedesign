@@ -8,7 +8,7 @@ import Logo from "../../assets/logo/logo4.png";
 const Navigation = () => {
   return (
     <Navbar expand="lg" fixed="top">
-      <Container>
+      <Container xs={12}>
         <Navbar.Brand>
           <a href="#">
             <img
@@ -33,12 +33,14 @@ const Navigation = () => {
               KONTAKT
             </Nav.Link>
           </Nav>
-          <a href="https://www.instagram.com/viventedesign" target="_blank">
-            <i className="fa fa-facebook"></i>
-          </a>
-          <a href="https://www.facebook.com/ViventeDesign" target="_blank">
-            <i className="fa fa-instagram"></i>
-          </a>
+          <div className="social">
+            <a href="https://www.instagram.com/viventedesign" target="_blank">
+              <i className="fa fa-facebook"></i>
+            </a>
+            <a href="https://www.facebook.com/ViventeDesign" target="_blank">
+              <i className="fa fa-instagram"></i>
+            </a>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

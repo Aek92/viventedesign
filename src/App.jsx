@@ -4,6 +4,7 @@ import Contact from "./components/contact/contact";
 import About from "./components/about/about";
 import Nav from './components/navigation/nav';
 import Header from "./components/header/header";
+import GalleryV2 from "./components/galleryV2/galleryv2";
 
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -27,6 +28,7 @@ const App = () => {
       <Nav />
       <Header />
       <About data={landingPageData.Header}/>
+      <GalleryV2 />
       <Gallery data={landingPageData.Gallery} />
       <Contact data={landingPageData.Contact} />
     </div>
