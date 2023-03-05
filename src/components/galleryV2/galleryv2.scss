@@ -1,0 +1,31 @@
+#galleryV2 {
+
+    margin-bottom: 5%;
+  .dummy {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+  }
+
+  .content {
+    margin: auto;
+    display: flex;
+
+    img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+
+  .quote {
+    display: flex;
+    width: 100%;
+
+    p {
+      font-family: "Pinyon Script", cursive;
+      margin: auto;
+      color: black;
+      font-size: 35px;
+    }
+  }
+}
