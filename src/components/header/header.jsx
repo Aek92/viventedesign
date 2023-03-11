@@ -8,9 +8,8 @@ import "./header.styles.scss";
 const Header = () => {
   return (
     <Container fluid>
-      <Row id="headerRow">
+      <Row id="headerRow" className='d-none d-lg-block'>
         <Col md={12} className="headerContainer">
-          <h1>VIVENTE DESIGN</h1>
         </Col>
       </Row>
     </Container>

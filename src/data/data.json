@@ -5,11 +5,11 @@
     "about": "Jeg heter Eva Klokkerud, og er så heldig å få være «daglig gleder» i mitt eget firma, Vivente Design. I tett samarbeid med mine oppdragsgivere utvikler jeg komplette interiørløsninger både innenfor offentlig miljø og i private hjem. \n\n Min visjon er å skape harmoniske, gjennomarbeidede løsninger, der funksjonalitet og estetikk forenes i et unikt og personlig uttrykk. Ingen mennesker er like – og det bør heller ikke hjemmene våre være! \n\n Jeg bistår som en kreativ samarbeidspartner enten du skal bygge, pusse opp eller omdisponere boligen din – og leverer en rekke produkter og tjenester som kan gjøre din bolig til det beste hjemmet for nettopp deg! \n\n Ta gjerne kontakt for en uforpliktende prat om ditt prosjekt!"
   },
   "GalleryV2": {
-    "lys": {
-      "image": "img/portfolio/bilde1.jpg",
-      "image1": "img/portfolio/bilde2.jpg",
-      "quote": "Her kommer det en smart tekst"
-    },
+    "lys": [
+      { "image": "img/portfolio/bilde1.jpg" },
+      { "image": "img/portfolio/bilde2.jpg" },
+      { "quote": "Her kommer det en smart tekst" }
+    ],
     "rom": [
       {
         "image": ""

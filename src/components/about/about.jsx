@@ -11,13 +11,13 @@ export const About = (props) => {
         <Col md={7} off>
           <div id="text-container">
             
-          <p className='welcome'>{props.data ? props.data.welcome : "Missing"}</p>
+          <h1 className='welcome'>{props.data ? props.data.welcome : "Missing"}</h1>
           <p>
               {props.data ? props.data.about : "Missing about text"}
             </p>
           </div>
         </Col>
-        <Col md={{ span: 4, offset: 1 }} id="img">
+        <Col md={{ span: 4, offset: 1 }} id="img" className='d-flex alig-content-center'>
           <div className="right-vertical">
             <div className="gradient-box">
               <img
