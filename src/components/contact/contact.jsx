@@ -35,7 +35,7 @@ const Contact = (props) => {
   return (
     <div>
       <div id="contact">
-        <div className="container">
+        <div className="container fluid">
           <div className="row justify-content-between">
             <div className="col-md-8">
               <div className="row">

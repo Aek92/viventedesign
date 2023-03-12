@@ -6,21 +6,23 @@
     max-width: 100%;
     margin: 0 7%;
 
-    .navbar-brand img {
-      width: 70%;
-      margin: auto;
+    .navbar-brand {
+      
+      img {
+        width: 13em;
+      }
     }
 
     .navbar-collapse {
       flex-grow: 0.26;
-      .me-auto {
-        font-size: 18px;
+
+      .nav-link {
+        margin: 0px 1em;
+        white-space: nowrap;
         color: black;
-        .nav-link {
-          margin: auto 10%;
-          white-space: nowrap;
-        }
+        font-size: 18px;
       }
+
       a {
         margin: 0 2%;
       }

@@ -21,24 +21,36 @@ const Navigation = () => {
           </a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse>
-          <Nav className="me-auto">
-            <Nav.Link data-scroll href="#about">
+        <Navbar.Collapse className='justify-content-lg-evenly justify-content-center'>
+          <Nav className='justify-content-center justify-content-lg-around ' >
+            <Nav.Link data-scroll href="#about" className="link my-1 align-self-center">
               OM VIVENTE
             </Nav.Link>
-            <Nav.Link data-scroll href="#portfolio">
+            <Nav.Link data-scroll href="#portfolio" className="link gap-1 my-1 align-self-center">
               GALLERI
             </Nav.Link>
-            <Nav.Link data-scroll href="#contact">
+            <Nav.Link data-scroll href="#contact" className="link gap-1 my-1 align-self-center">
               KONTAKT
             </Nav.Link>
           </Nav>
-          <a href="https://www.instagram.com/viventedesign" target="_blank">
-            <i className="fa fa-facebook"></i>
-          </a>
-          <a href="https://www.facebook.com/ViventeDesign" target="_blank">
-            <i className="fa fa-instagram"></i>
-          </a>
+          <div className='d-flex my-3 justify-content-center justify-content-lg-evenly'>
+            <a
+              href="https://www.instagram.com/viventedesign"
+              target="_blank"
+              rel="noreferrer"
+              className='mx-2'
+            >
+              <i className="fa fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/ViventeDesign"
+              target="_blank"
+              rel="noreferrer"
+              className='mx-2'
+            >
+              <i className="fa fa-instagram"></i>
+            </a>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
