@@ -7,10 +7,10 @@ import Logo from "../../assets/logo/logo4.png";
 
 const Navigation = () => {
   return (
-    <Navbar expand="lg" fixed="top">
+    <Navbar expand="lg" fixed="top" collapseOnSelect='true'>
       <Container>
         <Navbar.Brand>
-          <a href="#">
+          <a href="#top">
             <img
               alt="logo"
               href="#newHeader"
@@ -22,14 +22,14 @@ const Navigation = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className='justify-content-lg-evenly justify-content-center'>
-          <Nav className='justify-content-center justify-content-lg-around ' >
+          <Nav className='justify-content-center justify-content-lg-around' >
             <Nav.Link data-scroll href="#about" className="link my-1 align-self-center">
               OM VIVENTE
             </Nav.Link>
-            <Nav.Link data-scroll href="#portfolio" className="link gap-1 my-1 align-self-center">
+            <Nav.Link data-scroll href="#galleryV2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className="link gap-1 my-1 align-self-center">
               GALLERI
             </Nav.Link>
-            <Nav.Link data-scroll href="#contact" className="link gap-1 my-1 align-self-center">
+            <Nav.Link data-scroll href="#contact" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" className="link gap-1 my-1 align-self-center">
               KONTAKT
             </Nav.Link>
           </Nav>
