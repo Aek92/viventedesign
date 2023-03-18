@@ -8,7 +8,7 @@ import Logo from "../../assets/logo/logo4.png";
 const Navigation = () => {
   return (
     <Navbar expand="lg" fixed="top" collapseOnSelect='true'>
-      <Container>
+      <Container className='mx-0 mx-lg-5'>
         <Navbar.Brand>
           <a href="#top">
             <img
