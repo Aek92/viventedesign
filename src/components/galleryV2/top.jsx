@@ -7,16 +7,9 @@ const Top = () => {
     <Fragment>
       <Row >
         <Col md={12}>
-          <div className="content text">
+          <div className="content quote">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              porttitor lacus nec auctor sagittis. Praesent ut magna vitae
-              libero volutpat suscipit non vel magna. Sed quis orci eu diam
-              lacinia dictum eget nec tortor. Ut ac varius sapien. Integer a
-              augue vel nunc ullamcorper posuere sit amet non lacus. Sed ut leo
-              id urna tristique volutpat. Pellentesque a ligula eros.
-              Suspendisse vehicula ligula id dui commodo condimentum. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit.
+            «Farger, materialer, møbler – helheten som skal føles naturlig, personlig og uanstrengt.» 
             </p>
           </div>
         </Col>
@@ -30,6 +23,18 @@ const Top = () => {
         </Col>
         <Col md={4} className='mb-3 my-md-0'>
           <div className="content dummy"></div>
+        </Col>
+      </Row>
+      <Row >
+        <Col md={12}>
+          <div className="content text">
+            <p>
+            Ditt uttrykk – min kompetanse. 
+            Sammen skaper vi omgivelsene du alltid har drømt om. 
+            En flyt mellom rommene fra kjøkken, bad og stue – til de mer private sonene. 
+            Og vi glemmer selvfølgelig heller ikke uterommet!
+            </p>
+          </div>
         </Col>
       </Row>
     </Fragment>
