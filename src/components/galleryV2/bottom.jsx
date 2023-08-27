@@ -8,7 +8,7 @@ const Bottom = () => {
       <Row className="my-4">
         <Col md={6} lg={4} className="d-flex align-items-center mb-4 my-md-0">
           <div className="content quote">
-            <p>«The devil is in the details.!»</p>
+            <p>«The devil is in the details!»</p>
           </div>
         </Col>
         <Col md={6} lg={4} className='mb-3 my-md-2'>
