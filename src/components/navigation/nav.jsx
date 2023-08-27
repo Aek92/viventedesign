@@ -10,7 +10,7 @@ const Navigation = () => {
     <Navbar expand="lg" fixed="top" collapseOnSelect='true'>
       <Container className='mx-0 mx-lg-5'>
         <Navbar.Brand>
-          <a href="#top">
+          <a href="/#top">
             <img
               alt="logo"
               href="#newHeader"
@@ -23,14 +23,18 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className='justify-content-lg-evenly justify-content-center'>
           <Nav className='justify-content-center justify-content-lg-around' >
-            <Nav.Link data-scroll href="#about" className="link my-1 align-self-center">
+            <Nav.Link data-scroll href="/#about" className="link my-1 align-self-center">
               OM VIVENTE
             </Nav.Link>
-            <Nav.Link data-scroll href="#galleryV2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className="link gap-1 my-1 align-self-center">
+            <Nav.Link data-scroll href="/#galleryV2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className="link gap-1 my-1 align-self-center">
               GALLERI
             </Nav.Link>
-            <Nav.Link data-scroll href="#contact" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" className="link gap-1 my-1 align-self-center">
+            <Nav.Link data-scroll href="/#contact" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" className="link gap-1 my-1 align-self-center">
               KONTAKT
+            </Nav.Link>
+            <div className="vertical"/>
+            <Nav.Link href="/samarbeidspartnere" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" className="link gap-1 my-1 align-self-center">
+              MINE SAMARBEIDSPARTNERE
             </Nav.Link>
           </Nav>
           <div className='d-flex my-3 justify-content-center justify-content-lg-evenly'>

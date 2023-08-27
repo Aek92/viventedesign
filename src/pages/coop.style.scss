@@ -1,0 +1,21 @@
+.container {
+  margin-top: 110px;
+}
+
+#table-con {
+    margin-top: 5%;
+}
+table {
+  font-size: large;
+}
+tr:nth-child(even) td:nth-child(even),
+tr:nth-child(odd) td:nth-child(odd) {
+  background: #ddd;
+}
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+  background: white;
+}
+td {
+  padding: 30px;
+}
