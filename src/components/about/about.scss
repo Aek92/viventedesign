@@ -4,7 +4,7 @@
   margin: auto;
 
   .row {
-   margin: auto;
+    margin: auto;
 
     #text-container {
       padding-left: 0.5em;
@@ -48,7 +48,7 @@
         }
       }
 
-      .gradient-box:before {
+       .gradient-box:before {
         content: "";
         z-index: -1;
         position: absolute;
@@ -72,8 +72,8 @@
         bottom: 0;
         left: 0;
         background: inherit;
-        border-radius: inherit;
-      }
+        border-radius: inherit; }
+        
     }
   }
 }
