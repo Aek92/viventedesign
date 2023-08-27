@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Gallery from "./components/gallery/gallery";
 import Contact from "./components/contact/contact";
 import About from "./components/about/about";
 import Nav from './components/navigation/nav';
 import Header from "./components/header/header";
 import GalleryV2 from './components/galleryV2/galleryv2';
+import Container from 'react-bootstrap/Container';
 
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -24,13 +24,13 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <Container fluid className='g-0'>
       <Nav />
       <Header />
       <About data={landingPageData.Header}/>
       <GalleryV2 data={landingPageData.GalleryV2}/>
       <Contact data={landingPageData.Contact} />
-    </div>
+    </Container>
   );
 };
 
